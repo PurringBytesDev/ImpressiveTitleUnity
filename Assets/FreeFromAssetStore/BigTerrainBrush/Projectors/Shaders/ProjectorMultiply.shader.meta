@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 01a668cc78047034a8a0c5ca2d24c6f7
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124361
+  packageName: Big Terrain Brush
+  packageVersion: 1.0
+  assetPath: Assets/BigTerrainBrush/Projectors/Shaders/ProjectorMultiply.shader
+  uploadId: 258195

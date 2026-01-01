@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9f0606e0491e75642a4d51ab3a931861
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Editor/Scripts/UIElements/SceneViewOverlay.cs
+  uploadId: 627943

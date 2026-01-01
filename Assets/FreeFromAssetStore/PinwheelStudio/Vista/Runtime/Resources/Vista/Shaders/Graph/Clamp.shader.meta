@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e810d88d8f46db845bf2e613d7666bac
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Resources/Vista/Shaders/Graph/Clamp.shader
+  uploadId: 627943

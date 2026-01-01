@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c403b59307c0443b6ab498e0ef3b2486
+timeCreated: 1470912637
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124361
+  packageName: Big Terrain Brush
+  packageVersion: 1.0
+  assetPath: Assets/BigTerrainBrush/BigTerrainBrush/Presets.cs
+  uploadId: 258195

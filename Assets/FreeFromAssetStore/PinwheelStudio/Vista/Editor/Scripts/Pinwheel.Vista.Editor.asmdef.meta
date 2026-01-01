@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 744fa42afdba2824b92cd08e4b1228c4
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Editor/Scripts/Pinwheel.Vista.Editor.asmdef
+  uploadId: 627943

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b00fd99ad9ad34b40ac25af4b805b69a
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Resources/Vista/Shaders/Graph/ThinOut.compute
+  uploadId: 627943

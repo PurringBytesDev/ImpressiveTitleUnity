@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bec754069ced5b3409882b32751f898e
+labels:
+- VistaCoreIncludeFile
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Resources/Vista/Shaders/Includes/Geometry.hlsl
+  uploadId: 627943

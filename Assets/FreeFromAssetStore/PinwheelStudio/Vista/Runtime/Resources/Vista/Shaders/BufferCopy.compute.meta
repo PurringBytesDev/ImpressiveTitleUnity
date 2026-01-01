@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc8777f218df3bd4a8ee5b25091f3b6c
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Resources/Vista/Shaders/BufferCopy.compute
+  uploadId: 627943

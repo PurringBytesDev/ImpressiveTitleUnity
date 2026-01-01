@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1de18dd647cad4fe4ac14b04e6d9a32f
+timeCreated: 1470742641
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124361
+  packageName: Big Terrain Brush
+  packageVersion: 1.0
+  assetPath: Assets/BigTerrainBrush/Resources/TerrainToolbox/Brush/ProjectorMaterialSquare.mat
+  uploadId: 258195

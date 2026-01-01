@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb44ba02d84bb4145a5bf536b236a0db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Samples/TerrainLayers/VistaSample_Sand.terrainlayer
+  uploadId: 627943

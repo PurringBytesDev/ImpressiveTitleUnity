@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a59070705ad408948b0c3ce74fc2c8ea
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Editor/Scripts/Graph/TerrainGraph/TerrainGraphViewport3d.cs
+  uploadId: 627943

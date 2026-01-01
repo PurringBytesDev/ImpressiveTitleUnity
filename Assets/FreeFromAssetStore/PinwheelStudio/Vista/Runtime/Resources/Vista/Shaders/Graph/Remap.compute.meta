@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dcc260640e9edf142a4c74030171ff5d
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Resources/Vista/Shaders/Graph/Remap.compute
+  uploadId: 627943

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 04a0c44b7eece4f48881d57325b24bd8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Editor/Scripts/UIElements/RatingBox.cs
+  uploadId: 627943

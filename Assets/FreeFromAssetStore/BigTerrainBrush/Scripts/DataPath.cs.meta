@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8f0efb226d9ec4600b93b436d5a5ce9e
+timeCreated: 1470827870
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124361
+  packageName: Big Terrain Brush
+  packageVersion: 1.0
+  assetPath: Assets/BigTerrainBrush/Scripts/DataPath.cs
+  uploadId: 258195

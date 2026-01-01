@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b193b7d2359373c45b3dd1892777d79c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Samples/Prefabs/VistaSample_Tree.prefab
+  uploadId: 627943

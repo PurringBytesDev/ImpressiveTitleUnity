@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 42d7d62bec97b8c4fb961e8cf3c174ec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ConcaveNode.cs
+  uploadId: 627943

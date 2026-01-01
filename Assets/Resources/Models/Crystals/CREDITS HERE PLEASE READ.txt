@@ -1,0 +1,12 @@
+Mesh Conversion by Faoladh
+Meshes made by ipoly3d
+If you'd like to find more of ipoly3d's work, you can find them here at https://ipoly3d.com/home/
+
+Remember to give credit when implementing these into your projects. I always recommend including a credits.txt doc
+when creating your server so that people are aware of who has contributed to your work!
+
+FOREWARNING: When adding these objects to Feral Heart, and I'm assuming any map maker, the objects may show up as large an on their sides. Always remember to scale them
+down and adjust rotation to your liking, or, if possible, you can alter the material file with a scaling code if needed.(Not sure if there is a code for rotations.)
+
+All meshes have been tested in ogremeshy but not in Feral Heart, if you come across any issues please tell me!
+I hope you all enjoy this, and happy creating! :3

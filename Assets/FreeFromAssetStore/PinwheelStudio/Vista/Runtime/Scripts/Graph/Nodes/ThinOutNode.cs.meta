@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0007689e1b602ae4b85e5aef8b480b83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250805
+  packageName: Vista 2023 - Procedural Terrain Generator
+  packageVersion: 2023.1.7
+  assetPath: Assets/PinwheelStudio/Vista/Runtime/Scripts/Graph/Nodes/ThinOutNode.cs
+  uploadId: 627943
