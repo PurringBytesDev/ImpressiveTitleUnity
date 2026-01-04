@@ -61,18 +61,18 @@
     <Analyzer Include="D:\Unity\Editors\6000.0.63f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Pool.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\ConnectionState.cs" />
+    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Common.cs" />
+    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Client.cs" />
+    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Utils.cs" />
+    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\MagnificentSendPipe.cs" />
+    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Pool.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\EventType.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\ThreadFunctions.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Server.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\MagnificentReceivePipe.cs" />
-    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Common.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Log.cs" />
-    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Client.cs" />
-    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\Utils.cs" />
     <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\NetworkStreamExtensions.cs" />
-    <Compile Include="Assets\Mirror\Transports\Telepathy\Telepathy\MagnificentSendPipe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Transports\Telepathy\Telepathy\Telepathy.asmdef" />
@@ -578,6 +578,10 @@
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -615,7 +619,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\Plugins\MySQL\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
@@ -642,6 +646,10 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="K4os.Hash.xxHash">
       <HintPath>Assets\Plugins\MySQL\K4os.Hash.xxHash.dll</HintPath>
       <Private>False</Private>
@@ -652,6 +660,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K4os.Compression.LZ4.Streams">

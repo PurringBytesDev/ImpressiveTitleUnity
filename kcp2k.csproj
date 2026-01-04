@@ -62,23 +62,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\Pool.cs" />
-    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\Kcp.cs" />
-    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpPeer.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\Utils.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpConfig.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\Common.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\empty\KcpServerNonAlloc.cs" />
-    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpHeader.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\ErrorCode.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpServerConnection.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpState.cs" />
+    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpChannel.cs" />
+    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpServer.cs" />
+    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\Kcp.cs" />
+    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpPeer.cs" />
+    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpHeader.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpClient.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\Log.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\AckItem.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\Extensions.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\AssemblyInfo.cs" />
-    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpChannel.cs" />
-    <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\highlevel\KcpServer.cs" />
     <Compile Include="Assets\Mirror\Transports\KCP\kcp2k\kcp\Segment.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -587,6 +587,10 @@
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -624,7 +628,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\Plugins\MySQL\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
@@ -651,6 +655,10 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="K4os.Hash.xxHash">
       <HintPath>Assets\Plugins\MySQL\K4os.Hash.xxHash.dll</HintPath>
       <Private>False</Private>
@@ -661,6 +669,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K4os.Compression.LZ4.Streams">

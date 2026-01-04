@@ -62,104 +62,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\VisualState.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\ISlot.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\Transform2dNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TransformPointsNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ConstantHeightNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITile.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\NoiseRenderer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\ColorTextureSlot.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\AlphaMapsCombiner.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PositionSample.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IDetailDensityPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IBiome.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Geometric\Geo2D.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasDynamicSlotCount.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\AnchorUtilities.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ContrastBrightnessNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyOverride.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\IModuleInfo.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeBufferCopy.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeData.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\MaskSlot.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotBase.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\AlbedoOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SpreadNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\BufferTrimmer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ISceneHeightProvider.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\InputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PositionContainer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphAssetSubClasses.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ExpandNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\OutputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\FalloffDirection.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\GetVariableNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IEdge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphAsset.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PolarisTerrainSystem\PolarisTileUtilities.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\TerrainGraphUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\CombineNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\MetallicSmoothnessOutputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Args.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITerrainSystem.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\TerrainGraph.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IGenericBufferPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IGeometryPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PolarisTerrainSystem\PolarisTerrainSystem.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IStickyImage.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BaseClasses\ImageNodeExtension.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RemapNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BaseClasses\ImageNodeBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyType.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\SetVariableNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\HeightMaskNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ObjectRef.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\PolygonMaskRenderer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ResolutionOverrideOptions.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SmoothNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\ProgressiveTask.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\DetailTemplate.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IDetailInstancePopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DirectionMaskNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ShapeNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\INode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\CoroutineHandle.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BlurNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\MathNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\CurveNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Attributes\NodeMetadataAttribute.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\VersionInfo.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Serialization\Serializer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\BufferHelper.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\StickyNote.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\DetailInstanceOutputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IMetallicMapPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Attributes\NonExposableAttribute.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\StickyNote.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\WeightBlendNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\VersionManager.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\LocalProceduralBiome.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\HeightOutputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphConstants.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\INodeExtensions.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\VersionManager.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\PositionInput.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DotsNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\Drawing.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BiomeScaleNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RgbaMergeNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Geometric\Line2D.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotProvider.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ExecutionProgress.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SlopeMaskNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\BiomeMaskGraph.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IGroupable.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\UnityTerrainSystem\UnityTerrainSystem.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\VistaManager.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IProceduralBiome.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\WaitAllCompleted.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyId.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\PointsNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\LPBUtilities.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AxialGradientNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AppendNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeDataRequest.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\CoroutineUtility.cs" />
@@ -167,54 +112,31 @@
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeBlendOptions.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphAssetExtensions.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\LoadTextureNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ExecutionHandle.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SharpenNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\LPBInputProvider.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IObjectPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\TileExtensions.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RadialGradientNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RotationNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\PolygonMaskNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasID.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\LevelsNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITreePopulator.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AngularWarpNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\NodeMetadata.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\Collector.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITerrainGraphArgumentsFiller.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\AssemblyInfo.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ObjectReference.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ILayerWeightsPopulator.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\TemplateUtils.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BaseClasses\ExecutableNodeBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeDataMask.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\ISetupWithHint.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\TextureInput.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyDescriptor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\ShaderUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\TreeTemplate.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\MinMaxInt.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotDirection.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\SceneDataUtils.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ShrinkNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\TreeOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\OffsetNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Edge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasAssetReferences.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\InstanceSample.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ColorBlendNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\InstanceBufferParser.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\UtilityDelegates.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IGroup.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotRef.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\SlotUtilities.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ConcaveNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\FlattenNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasSeed.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ThresholdNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RangeSelectNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ClampNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\MeshDensityOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\BiomeMaskGraphUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\ISlotAdapter.cs" />
@@ -223,52 +145,130 @@
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\TerrainGenerationConfigs.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\DetailDensityOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AngularGradientNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AnchorNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ConvexNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DirectionalWarpNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\SpawnUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\GenericSlot.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\ObjectTemplate.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\BufferSlot.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\ObjectOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\Utilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Group.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\UnityTerrainSystem\TerrainTileUtilities.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\WeightsBlend.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IGenericTexturePopulator.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\StickyImage.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Attributes\SerializeAssetAttribute.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Geometric\Polygon2D.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\BiomeVMConnector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TerrainSubGraphNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ThinOutNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\InstanceOutputNodeBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeDataUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ValueCheckNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\NodeLibraryUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphContext.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\NoiseMode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IStickyNote.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IExternalInputProvider.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TerraceNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\RecursiveGraphReferenceException.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\UnityTerrainSystem\TerrainTile.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\FalloffDetailNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\ModuleManager.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\DataPool.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\Constants.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\HoleOutputNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SelectPositionNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\PointGridNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\VoronoiNode.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeExtensions.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasDependencyNodes.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphInputContainer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\NoiseNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphBuffer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\CoroutineManager.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\TextureOutputNode.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IAlbedoMapPopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\ISlot.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TransformPointsNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ConstantHeightNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITile.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\NoiseRenderer.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\ColorTextureSlot.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\AlphaMapsCombiner.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PositionSample.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IBiome.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ContrastBrightnessNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeData.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeBufferCopy.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotBase.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\AlbedoOutputNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ISceneHeightProvider.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PositionContainer.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphAssetSubClasses.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\FalloffDirection.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IEdge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\TerrainGraphUtilities.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\MetallicSmoothnessOutputNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Args.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITerrainSystem.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IGenericBufferPopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IGeometryPopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\PolarisTerrainSystem\PolarisTerrainSystem.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IStickyImage.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BaseClasses\ImageNodeExtension.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\SetVariableNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\HeightMaskNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ResolutionOverrideOptions.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DirectionMaskNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ShapeNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\INode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\CoroutineHandle.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BlurNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\MathNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\CurveNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\VersionInfo.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\BufferHelper.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IMetallicMapPopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Attributes\NonExposableAttribute.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\IO\HeightOutputNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphConstants.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\INodeExtensions.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DotsNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\Drawing.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RgbaMergeNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Geometric\Line2D.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotProvider.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ExecutionProgress.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IGroupable.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\UnityTerrainSystem\UnityTerrainSystem.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyId.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AxialGradientNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\ExecutionHandle.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\IObjectPopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\TileExtensions.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RotationNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\PolygonMaskNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\Interfaces\ITreePopulator.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\NodeMetadata.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\AssemblyInfo.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IOutputNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\TemplateUtils.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\BaseClasses\ExecutableNodeBase.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\ISetupWithHint.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\ExposedProperty\PropertyDescriptor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\SceneDataUtils.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ShrinkNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ColorBlendNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\InstanceBufferParser.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\SlotRef.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ConcaveNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasSeed.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ThresholdNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\RangeSelectNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\ClampNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\AnchorNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\DirectionalWarpNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Slots\BufferSlot.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graphics\WeightsBlend.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Attributes\SerializeAssetAttribute.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Geometric\Polygon2D.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TerrainSubGraphNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\NoiseMode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\TerraceNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\DataPool.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\SelectPositionNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Nodes\VoronoiNode.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Core\BiomeExtensions.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\Interfaces\IHasDependencyNodes.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Graph\GraphInputContainer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Runtime\Scripts\Utilities\MinMaxFloat.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -775,6 +775,10 @@
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -812,7 +816,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\Plugins\MySQL\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
@@ -839,6 +843,10 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="K4os.Hash.xxHash">
       <HintPath>Assets\Plugins\MySQL\K4os.Hash.xxHash.dll</HintPath>
       <Private>False</Private>
@@ -849,6 +857,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K4os.Compression.LZ4.Streams">

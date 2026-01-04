@@ -63,96 +63,124 @@
   <ItemGroup>
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\NodeViewColor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SelectPositionNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\SceneViewOverlay.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RemapNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RangeSelectNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SearcherItemData.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\InputNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ObjectOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\HandleScope.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\Links.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Manipulators\WasdTracker.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TextureOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RotationNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AxialGradientNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SplitExecutionBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphViewportContainer.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\FalloffDetailNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorGraphView.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ShapeNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\BlurNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ExpandNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphInspector.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TerrainSubGraphNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SearcherUtils.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\LoadTextureNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Badge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AngularWarpNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ContrastBrightnessNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DetailDensityOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TerraceNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\ResolutionOverrideBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RgbaMergeNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ValueCheckNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DetailInstanceOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\BiomeMaskGraph\BiomeMaskGraphEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\CheckmarkBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\MetallicSmoothnessOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorSettingsInspector.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\StickyNoteView.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\PropertiesView.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\PointsNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ConstantHeightNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphConstantsInitializer.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphAdapter.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\WeightBlendNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\LabelWidthScope.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\PortView.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphCommandHandler.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SharpenNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\InstanceOutputNodeEditorBase.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\PointsDragger.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Menus\MenuTree.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ThinOutNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\GetVariableNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\RatingBox.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Display3dPositionsBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\LevelsNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\Transform2dNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\TreeTemplateInspector.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorSettings.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphViewport2d.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorToolbar.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphOpenHandler.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Viewport.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\ForceGenerateToolbarButton.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Importers\RawImporter.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HeightMaskNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\UpdateChecker.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AppendNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DirectionalWarpNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ConvexNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AnchorNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\XMarkBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SetVariableNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SlopeMaskNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\BypassBadge.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\MathNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HoleOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HeightOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SpreadNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\GlobalSceneGUIDrawer.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ShrinkNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\TroubleshootingHandler.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\LocalProceduralBiomeInspector.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\SceneViewOverlay.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RangeSelectNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ObjectOutputNodeEditor.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Manipulators\WasdTracker.cs" />
+    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Interfaces\IGraphPropertiesDrawer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\ObjectTemplateInspector.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\GroupView.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AngularGradientNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\VoronoiNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ImageNodeEditorBase.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AxialGradientNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Manipulators\Draggable.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\CombineNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SplitExecutionBadge.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphViewportContainer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\FalloffDetailNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorGraphView.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\VistaManagerInspector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ShapeNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\ProjectInitialization\ProjectInitializer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\BlurNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\BiomeMaskGraph\BiomeMaskGraphAdapter.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ExpandNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\ProjectInitialization\ModuleManager.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphInspector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TerrainSubGraphNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SearcherUtils.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\LoadTextureNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Badge.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ContrastBrightnessNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AngularWarpNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DetailDensityOutputNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TerraceNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\ResolutionOverrideBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainSubGraphInputProvider.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RgbaMergeNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ValueCheckNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DetailInstanceOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\OutputNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\BiomeMaskGraph\BiomeMaskGraphEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\BiomeScaleNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\CheckmarkBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorSettingsProvider.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\MetallicSmoothnessOutputNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorSettingsInspector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\StickyNoteView.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\PropertiesView.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DirectionMaskNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\PointsNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\TreeOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SearcherFilter.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ConstantHeightNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphConstantsInitializer.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\WeightBlendNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\PortView.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\LabelWidthScope.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphAdapter.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphCommandHandler.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SharpenNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\VerticalSeparator.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\UtilityButton.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ConcaveNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\IndentScope.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Interfaces\IGraphAdapter.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\EditorCommon.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\InstanceOutputNodeEditorBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Interfaces\ISearcherProvider.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Display3dMaskBadge.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\PointsDragger.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Interfaces\ICommandHandler.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Menus\MenuTree.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ThinOutNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\GetVariableNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Interfaces\IHasNodePreview.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\RatingBox.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\NoiseNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\NodeSearcherAdapter.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\NodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SmoothNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ThresholdNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Display3dPositionsBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\StickyImageView.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorTitle.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\WarningBadge.cs" />
@@ -163,65 +191,37 @@
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\NodeView.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\PointGridNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\FlattenNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\LevelsNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\Transform2dNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Display3dHeightBadge.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\TreeTemplateInspector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorSettings.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphViewport2d.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\GenericNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Manipulators\Scrollable.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorToolbar.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphOpenHandler.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\WaitIconProvider.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\DetailTemplateInspector.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Viewport.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\TerrainGraph\TerrainGraphViewport3d.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\Display2dBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphCommandHandlerBase.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\ForceGenerateToolbarButton.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Resizer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\EdgeConnectorListener.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\SearcherProvider.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\NodeSearcherItem.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Importers\RawImporter.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\PolygonMaskNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HeightMaskNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\UpdateChecker.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AppendNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\OffsetNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\GraphEditorStatusBar.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\EditorScreenshot.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DirectionalWarpNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Attributes\NodeEditorAttribute.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ConvexNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AnchorNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\XMarkBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ColorBlendNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ExecutableNodeEditorBase.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\CurveNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SetVariableNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SlopeMaskNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\BypassBadge.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\PositionContainerInspector.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Menus\EditorMenus.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\MathNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\Common\NodeMetaUtilities.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\AlbedoOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\UIElements\Manipulators\PanelDragger.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\AssemblyInfo.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HoleOutputNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HeightOutputNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\DotsNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\SpreadNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\GlobalSceneGUIDrawer.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\GraphElements\EdgeView.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ShrinkNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\ClampNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\HydraulicErosionNodeEditor.cs" />
     <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Graph\NodeEditors\RadialGradientNodeEditor.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Utilities\TroubleshootingHandler.cs" />
-    <Compile Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Core\LocalProceduralBiomeInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FreeFromAssetStore\PinwheelStudio\Vista\Editor\Scripts\Pinwheel.Vista.Editor.asmdef" />
@@ -735,6 +735,10 @@
       <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -772,7 +776,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\Plugins\MySQL\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
@@ -799,6 +803,10 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="K4os.Hash.xxHash">
       <HintPath>Assets\Plugins\MySQL\K4os.Hash.xxHash.dll</HintPath>
       <Private>False</Private>
@@ -809,6 +817,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="K4os.Compression.LZ4.Streams">
